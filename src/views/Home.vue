@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <LandingImage />
-  </div>
+    <div class="home">
+        <LandingImage />
+        <span>tet</span>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import LandingImage from "@/components/home/LandingImage.vue";
 
 export default {
-  name: "Home",
-  components: {
-    LandingImage
-  }
+    name: "Home",
+    components: {
+        LandingImage
+    }
 };
 </script>
