@@ -13,8 +13,12 @@
                     max-width="700"
                     width="100%"
                 >
-                    <base-heading size="display-1" title="Nous concevons des événements médicaux" />
-                    <base-heading size="display-1" title="Mais autrement" />
+                    <base-heading
+                        class="ml-12"
+                        size="display-1"
+                        title="Nous concevons des événements médicaux"
+                    />
+                    <base-heading class="ml-12" size="display-1" title="Mais autrement" />
                 </v-responsive>
             </v-container>
         </v-img>
@@ -32,7 +36,6 @@ export default {
     computed: {
         minHeight() {
             const height = this.$vuetify.breakpoint.mdAndUp ? "100vh" : "50vh";
-
             return `calc(${height})`;
         }
     }
