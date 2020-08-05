@@ -2,7 +2,7 @@
     <div>
         <v-app-bar id="home-app-bar" app elevation="1" height="80" class="appbar__home">
             <base-img
-                :src="require('@/assets/logo.svg')"
+                :src="require('@/assets/img/logo.svg')"
                 class="mr-3 hidden-md-and-up"
                 contain
                 max-width="52"
@@ -11,7 +11,7 @@
             />
 
             <base-img
-                :src="require('@/assets/vibrio-logo-light.svg')"
+                :src="require('@/assets/img/vibrio-logo-light.svg')"
                 contain
                 max-width="128"
                 width="100%"

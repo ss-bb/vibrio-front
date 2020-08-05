@@ -16,7 +16,12 @@
         </v-container>
         <v-row align="center" class="px-12">
             <v-col cols="12" md="7">
-                <base-img :src="require('@/assets/logo.svg')" contain width="100%" height="800px" />
+                <base-img
+                    :src="require('@/assets/img/logo.svg')"
+                    contain
+                    width="100%"
+                    height="800px"
+                />
             </v-col>
 
             <v-col cols="12" md="4" class="px-12">

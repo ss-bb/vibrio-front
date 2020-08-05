@@ -1,8 +1,15 @@
 <template>
     <v-theme-provider :dark="dark">
+        <v-row>
+            <v-col cols="12"></v-col>
+        </v-row>
+            <span>le truc zarbi</span>
+            <base-title size="body-1" space="4" title="Notre équipe" weight="regular" />
+        </div>
+        
         <div>
             <base-img
-                :src="require('@/assets/vibrio-logo-dark.svg')"
+                :src="require('@/assets/img/vibrio-logo-dark.svg')"
                 contain
                 max-width="128"
                 min-height="78"

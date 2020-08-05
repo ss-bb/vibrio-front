@@ -7,7 +7,7 @@
         <base-subheading space="8" title="Looks like this page doesn't exist" />
 
         <base-img
-            :src="require('@/assets/logo.svg')"
+            :src="require('@/assets/img/logo.svg')"
             class="mx-auto mb-12"
             contain
             height="350"

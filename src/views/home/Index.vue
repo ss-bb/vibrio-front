@@ -18,14 +18,10 @@ export default {
             "hero",
             "agence-home",
             "ambition-home",
-            //"theme-features",
-            "features",
+            "valeur-home",
             "contact-us",
-            "affiliates",
-            "social-media",
-            "keep-in-touch",
+            "equipe-home",
             "newsletter",
-            "pro-features",
             "info"
         ])
     ],
