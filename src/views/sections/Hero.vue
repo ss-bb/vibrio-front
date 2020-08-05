@@ -13,24 +13,8 @@
                     max-width="700"
                     width="100%"
                 >
-                    <base-heading title="PROMOTE YOUR BUSINESS WITH ZERO" />
-
-                    <base-body>
-                        Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality.
-                        incubator seed round massmarket.
-                        buyer agile development growth hacking business-to-consumer ecosystem
-                    </base-body>
-
-                    <div
-                        :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
-                        class="d-flex flex-wrap"
-                    >
-                        <base-btn>Discover More</base-btn>
-
-                        <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
-
-                        <base-btn :ripple="false" class="pa-1" height="auto" text>Get Started Now</base-btn>
-                    </div>
+                    <base-heading size="display-1" title="Nous concevons des événements médicaux" />
+                    <base-heading size="display-1" title="Mais autrement" />
                 </v-responsive>
             </v-container>
         </v-img>
@@ -49,7 +33,7 @@ export default {
         minHeight() {
             const height = this.$vuetify.breakpoint.mdAndUp ? "100vh" : "50vh";
 
-            return `calc(${height} - ${this.$vuetify.application.top}px)`;
+            return `calc(${height})`;
         }
     }
 };
