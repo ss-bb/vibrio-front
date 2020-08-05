@@ -3,10 +3,11 @@
         <v-app-bar id="home-app-bar" app elevation="1" height="80" class="appbar__home">
             <base-img
                 :src="require('@/assets/logo.svg')"
-                class="mr-3 hidden-xs-only"
+                class="mr-3 hidden-md-and-up"
                 contain
                 max-width="52"
                 width="100%"
+                height="80px"
             />
 
             <base-img
@@ -14,6 +15,7 @@
                 contain
                 max-width="128"
                 width="100%"
+                height="80px"
             />
 
             <v-spacer />
