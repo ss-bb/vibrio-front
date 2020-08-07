@@ -60,8 +60,9 @@ export default {
             "Partenaire",
             "Team",
             "Contact",
+            "Evenements" /*
             "Pro",
-            "About"
+            "About"*/
         ]
     })
 };

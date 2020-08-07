@@ -6,7 +6,7 @@
 
         <home-footer />
 
-        <home-settings />
+        <!--<home-settings />-->
     </v-app>
 </template>
 

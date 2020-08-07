@@ -37,7 +37,7 @@
                 <base-subheading class="white--text mt-3 mb-0" title="PAS moi" />
                 <base-subheading class="grey--text mt-0" title="pas taper" />
             </v-col>
-            <v-col cols="3" class="d-flex flex-column justify-center align-center">
+            <v-col cols="3" class="d-flex flex-column justify-center align-center" offset-md="2">
                 <v-avatar size="130">
                     <base-img :src="require('@/assets/img/equipe5.jpg')" />
                 </v-avatar>
@@ -46,11 +46,21 @@
             </v-col>
             <v-col cols="3" class="d-flex flex-column justify-center align-center">
                 <v-avatar size="130">
-                    <base-img :src="require('@/assets/img/equipe2.jpg')" />
+                    <base-img :src="require('@/assets/img/equipe6.jpg')" />
                 </v-avatar>
                 <base-subheading
                     class="white--text text-center mt-3 mb-0"
                     title="UN NOM BEAUCOUP TROP LONG jean-françois"
+                />
+                <base-subheading class="grey--text mt-0" title="voila" />
+            </v-col>
+            <v-col cols="3" class="d-flex flex-column justify-center align-center">
+                <v-avatar size="130">
+                    <base-img :src="require('@/assets/img/equipe7.jpg')" />
+                </v-avatar>
+                <base-subheading
+                    class="white--text text-center mt-3 mb-0"
+                    title="PAS d'inspiration"
                 />
                 <base-subheading class="grey--text mt-0" title="voila" />
             </v-col>

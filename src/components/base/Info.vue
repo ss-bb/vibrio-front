@@ -3,10 +3,7 @@
         <v-row>
             <v-col cols="12"></v-col>
         </v-row>
-            <span>le truc zarbi</span>
-            <base-title size="body-1" space="4" title="Notre équipe" weight="regular" />
-        </div>
-        
+
         <div>
             <base-img
                 :src="require('@/assets/img/vibrio-logo-dark.svg')"
@@ -16,7 +13,7 @@
                 width="100%"
             />
 
-            <base-title size="body-1" space="4" title="MULTI-PURPOSE THEME" weight="regular" />
+            <base-title size="body-1" space="4" title="WOW" weight="regular" />
 
             <base-body>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.</base-body>
 

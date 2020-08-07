@@ -16,8 +16,8 @@ export default {
     mixins: [
         LoadSections([
             "hero",
-            "agence-home",
             "ambition-home",
+            "agence-home",
             "valeur-home",
             "contact-us",
             "equipe-home",
