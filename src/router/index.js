@@ -42,6 +42,11 @@ const router = new Router({
                     name: 'Team',
                     component: () =>
                         import ('@/views/team/Index.vue'),
+                }, {
+                    path: 'evenements',
+                    name: 'Evenements',
+                    component: () =>
+                        import ('@/views/evenements/Index.vue'),
                 },
                 {
                     path: 'about',

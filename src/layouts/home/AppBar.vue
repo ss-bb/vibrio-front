@@ -21,13 +21,11 @@
             <v-spacer />
 
             <div>
-                <v-tabs class="hidden-sm-and-down tabs__appbar" optional hide-slider>
+                <v-tabs class="hidden-sm-and-down" optional hide-slider>
                     <v-tab
                         v-for="(name, i) in items"
                         :key="i"
                         :to="{ name }"
-                        :exact="name === 'Home'"
-                        :ripple="false"
                         active-class="primary--text"
                         class="font-weight-bold white--text"
                         min-width="96"
@@ -60,7 +58,7 @@ export default {
             "Partenaire",
             "Team",
             "Contact",
-            "Evenements" /*
+            "evenements" /*
             "Pro",
             "About"*/
         ]

@@ -1,6 +1,6 @@
 {
-    "name": "@vuetify-themes/zero",
-    "version": "1.1.1",
+    "name": "vibrio",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",

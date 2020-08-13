@@ -7,21 +7,23 @@ import View from "@/views/View";
 import LoadSections from "@/mixins/load-sections";
 
 export default {
-    name: "Agence",
+    name: "Evenements",
 
-    metaInfo: { title: "Agence" },
+    metaInfo: { title: "Evenements" },
 
     extends: View,
 
     mixins: [
         LoadSections([
-            "hero",
-            "ambition-home",
-            "agence-home",
-            "valeur-home",
+            "hero-evenements",
+            "theme-features",
+            "features",
             "contact-us",
-            "equipe-home",
+            "affiliates",
+            "social-media",
+            "keep-in-touch",
             "newsletter",
+            "pro-features",
             "info"
         ])
     ],
