@@ -25,7 +25,7 @@
         "archiver": "^4.0.1",
         "babel-core": "7.0.0-bridge.0",
         "dotenv": "^8.2.0",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "open": "^7.0.3",
         "sass": "^1.26.5",
         "sass-loader": "^8.0.2",
